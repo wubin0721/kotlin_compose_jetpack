@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/iv_lanuch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <RadioGroup
+        android:id="@+id/rg_incate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/brn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="进入主界面"
+        android:textColor="#ff3300"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff2020</color>
+    <color name="colorPrimaryDark">#ff1010</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="top_color">#FF6000</color>
+    <color name="white">#ffffff</color>
+    <color name="line">#e4e4e4</color>
+
+
+    <color name="app_bg_color">#f4f4f4</color>
+    <color name="gray40">#666666</color>
+    <color name="orange">#FF9900</color>
+    <color name="gray60">#999999</color>
+    <color name="gray20">#333333</color>
+    <color name="gray55">#8c8c8c</color>
+    <color name="graycc">#cccccc</color>
+    <color name="grayf3">#f3f3f3</color>
+    <color name="grayf7">#f7f7f7</color>
+
+    <color name="cream_colored">#FFF5E1</color>
+    <color name="orange1">#FFA309</color>
+    <color name="orange2">#FFA368</color>
+    <color name="gray80">#cccccc</color>
+    <color name="red">#ff0000</color>
+    <color name="txt_tip">#010101</color>
+
+    <color name="txt_green">#50cb43</color>
+    <color name="line3">#aaaaaa</color>
+    <color name="txt_gray">#808080</color>
+    <color name="colorbg">#f1f1f1</color>
+    <color name="txt_red">#ff2000</color>
+    <color name="green_shape">#00CA42</color>
+    <color name="txt_yellow">#FDBC02</color>
+    <color name="bg_gray">#B0CEE6</color>
+    <color name="top_color2">#ffa064</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="top_red">#F10000</color>
+    <color name="transparent">#00000000</color>
+    <color name="time_green">#00B208</color>
+    <!--弹出类别 或主题字体颜色-->
+    <color name="text_toast_color">#00CC33</color>
+    <color name="txt_greens">#01B209</color>
+    <color name="black">#000000</color>
+    <color name="black60">#99000000</color>
+    <color name="bg_small_yellow">#F9C53C</color>
+    <color name="txt_oranges">#FDC21A</color>
+    <color name="bg_yellow">#ffcc00</color>
+    <color name="txt_orange">#ff6508</color>
+    <color name="text_orange1">#FF3300</color>
+    <!--弹出类别 或主题分割线,颜色-->
+    <color name="text_space">#F2F2F2</color>
+    <color name="txt_tip_black">#949494</color>
+    <color name="txt_tip_green">#009900</color>
+    <color name="listview_item_normal">#eef0ed</color>
+    <color name="listview_item_pressed">#d4d4d4</color>
+    <color name="dd_text">#B5B5B5</color>
+    <color name="city_head_bg">#e6e6e6</color>
+    <color name="txt_red_color">#F21E1E</color>
+    <color name="but_color2">#93d98d</color>
+    <color name="but_color1">#79c670</color>
+    <color name="deep_grey">#465866</color>
+    <color name="small_yel">#FDF9E7</color>
+    <color name="textColor8C">#8c8c8d</color>
+    <color name="textColorRed">#d4231f</color>
+</resources>
