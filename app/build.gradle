@@ -73,7 +73,17 @@ android {
 
 dependencies {
 
-    implementation 'com.github.JessYanCoding:AndroidAutoSize:v1.2.1'
+
+
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+
+    // X5内核WebView
+    implementation "com.tencent.tbs:tbssdk:44085"
+
+    //android工具库
+//    implementation "com.blankj:utilcodex:1.29.0"
+
+    implementation "com.github.JessYanCoding:AndroidAutoSize:v1.2.1"
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     implementation "androidx.constraintlayout:constraintlayout:2.1.4"
 
