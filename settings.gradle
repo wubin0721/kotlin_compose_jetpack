@@ -9,9 +9,13 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
-
     }
+
+
 }
+
+
+
 
 
 dependencyResolutionManagement {
@@ -26,4 +30,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "kotlin_compose"
+
+
 include ':app'

@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".Activity.HomeActivity">
 
+    <include layout="@layout/title_bar_btn"/>
+
     <TextView
         android:id="@+id/tx"
         android:layout_width="wrap_content"

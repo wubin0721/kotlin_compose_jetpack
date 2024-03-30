@@ -84,7 +84,7 @@ class SplashActivity : Activity(), View.OnClickListener {
             adimg!!.linearLayout?.visibility = View.GONE
 
             val intent = Intent(this@SplashActivity,
-                HomeActivity::class.java)
+                LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -103,7 +103,7 @@ class SplashActivity : Activity(), View.OnClickListener {
                 timeCount!!.cancel()
 
                 intent.setClass(this@SplashActivity,
-                    HomeActivity::class.java)
+                    LoginActivity::class.java)
                 startActivity(intent)
             }
 
@@ -114,7 +114,7 @@ class SplashActivity : Activity(), View.OnClickListener {
                 }
 
                 val intent = Intent(this@SplashActivity,
-                    HomeActivity::class.java)
+                    LoginActivity::class.java)
                 startActivity(intent)
                 finish()
             }

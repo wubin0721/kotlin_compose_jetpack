@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid)
 }
 
+
+
 android {
     namespace 'com.demo.kotlin_compose'
 
@@ -74,14 +76,17 @@ android {
 dependencies {
 
 
-
     compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+
+    // compose版 viewpager
+    def accompanist_version = "0.34.0"
+    implementation "com.google.accompanist:accompanist-pager:${accompanist_version}"
 
     // X5内核WebView
     implementation "com.tencent.tbs:tbssdk:44085"
 
     //android工具库
-//    implementation "com.blankj:utilcodex:1.29.0"
+    implementation "com.blankj:utilcodex:1.30.6"
 
     implementation "com.github.JessYanCoding:AndroidAutoSize:v1.2.1"
     implementation "androidx.viewpager2:viewpager2:1.0.0"
