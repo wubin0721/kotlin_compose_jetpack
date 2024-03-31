@@ -21,6 +21,7 @@ import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.magnifier
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.demo.kotlin_compose.Common.base.BaseActivity
 import com.demo.kotlin_compose.R
@@ -32,9 +33,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.demo.kotlin_compose.Compose.ComposeDemoApp
 import com.demo.kotlin_compose.Compose.ImageArea
 import com.demo.kotlin_compose.Compose.InputArea
 
@@ -51,37 +54,11 @@ class LoginActivity : BaseActivity() {
 //        mEditPwd = findViewById(R.id.edit_pwd)
 
         setContent {
-            Kotlin_composeTheme {                                       //默认主题
-                SumView()
+            Kotlin_composeTheme {                //默认主题
+                ComposeDemoApp()                //路由切换不同页面
             }
         }
     }
-
-
-
-    @Composable
-    private fun SumView() {
-        Column(
-            modifier = Modifier
-                .fillMaxSize(),
-            horizontalAlignment  = CenterHorizontally   //布局内子控件水平居中
-        ) {                              //从上到下排列布局
-            ImageArea(R.drawable.col, "")
-            InputArea("", "")
-        }
-    }
-
-
-    @Preview
-    @Composable
-    private fun SumViewPreview() {
-        SumView()
-    }
-
-
-
-
-
 
 
 
@@ -97,4 +74,5 @@ class LoginActivity : BaseActivity() {
 //        finish()
 //    }
 }
+
 
