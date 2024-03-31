@@ -31,10 +31,14 @@ fun ComposeDemoNavHost(
     val activity = (LocalContext.current as Activity)
     val context = LocalContext.current
     NavHost(navController = navController, startDestination = Router.Login.route) {
-        composable(route = Router.Login.route) {
+        composable(
+            route = Router.Login.route                  //跳转需要的路径
+        ) {
             LoginScreen(
                 onLoginClick = {
-//                    navController.navigate("")
+//                    navController.navigate("home")
+
+
                     val intent = Intent(context,HomeActivity::class.java)
                     activity.startActivity(intent)
 
@@ -44,6 +48,8 @@ fun ComposeDemoNavHost(
                 }
             )
         }
+
+
 //        composable(
 //            route = Router.PlantDetail.route,
 //            arguments = Router.PlantDetail.navArguments

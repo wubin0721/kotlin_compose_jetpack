@@ -6,10 +6,12 @@ import androidx.navigation.navArgument
 
 
 sealed class Router(
-    val route: String,
+    val route: String,                                      //路径
     val navArguments: List<NamedNavArgument> = emptyList()
 ) {
-    data object Login : Router("home")
+    data object Login : Router("login")
+
+    data object Home : Router("home")
 
 //    data object PlantDetail : Router(
 //        route = "plantDetail/{plantId}",

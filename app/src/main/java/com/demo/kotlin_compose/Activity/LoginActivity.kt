@@ -37,9 +37,11 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModelProvider
 import com.demo.kotlin_compose.Compose.ComposeDemoApp
 import com.demo.kotlin_compose.Compose.ImageArea
 import com.demo.kotlin_compose.Compose.InputArea
+import com.demo.kotlin_compose.Viewmodel.LoginViewModel
 
 /*
 compose与view混合开发，布局可选
@@ -58,6 +60,9 @@ class LoginActivity : BaseActivity() {
                 ComposeDemoApp()                //路由切换不同页面
             }
         }
+
+        //创建一个loginViewModel实例
+        val loginViewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
     }
 
 
