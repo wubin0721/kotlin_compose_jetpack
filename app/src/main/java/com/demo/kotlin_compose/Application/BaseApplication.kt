@@ -15,6 +15,8 @@ open class BaseApplication : Application() {
         super.onCreate()
         instance = this
 
+
+
         //配置自动适配屏幕
         AutoSizeConfig.getInstance().setCustomFragment(true)
     }
